@@ -1,0 +1,53 @@
+{
+  "name": "mood-quote-generator",
+  "version": "1.0.0",
+  "description": "A beautiful mood-based quote generator built with React. Choose your mood and get inspired with perfectly matched quotes!",
+  "author": "Gaby H",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "quote-generator",
+    "mood-based",
+    "inspirational-quotes",
+    "motivational",
+    "javascript",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabyh2425/MoodQuoteapp.git"
+  },
+  "homepage": "https://moodquoteapp.netlify.app",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^23.9.5"
+  }
+}
